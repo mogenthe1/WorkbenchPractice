@@ -1,0 +1,11 @@
+name: WorkbenchPractice
+version: '0.0.1'
+main: com.Mogen.WorkbenchPractice.WorkbenchPractice
+api-version: '1.20'
+commands:
+  play:
+    description: play party games
+    usage: /<command> <left/right> <easy/normal> <wait time>
+  leaderboard:
+    description: Display the top 100 players
+    usage: /leaderboard
